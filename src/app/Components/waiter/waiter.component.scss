@@ -1,0 +1,122 @@
+// .mat-tab-group {
+//   margin-bottom: 48px;
+// }
+
+.items-order {
+  line-height: 40px;
+}
+
+.body-summary {
+  background-color: #ebeaea;
+  padding: 20px;
+  align-content: center;
+  align-items: center;
+}
+
+.menus {
+  text-align: center;
+
+  & button {
+    margin: 0 2px;
+  }
+}
+
+.fields-form {
+  margin: 15px;
+  text-align: center;
+}
+
+.btn-start-order button {
+  font-weight: bold;
+}
+
+.header-bar {
+  margin-top: 10px;
+  text-align: center;
+  background-color: #901111;
+  color: #e5e5e5;
+}
+
+.header-summary h1 {
+  margin-bottom: 0px;
+}
+
+.body-summary {
+  & p {
+    margin: 0px;
+    // text-align: right;
+  }
+
+  & .p-table {
+    margin-top: -20px;
+    margin-bottom: 15px;
+  }
+}
+
+.subtotal {
+  text-align: right;
+  margin: 10px 10px;
+}
+
+.centered-btn {
+  text-align: center;
+}
+
+.span-wine {
+  margin-right: 5px;
+  color: #901111;
+}
+
+li::marker {
+  color: #901111;
+}
+
+.ready-orders-container p {
+  line-height: 25px;
+  font-size: 16px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.ready-orders-container li {
+  line-height: 20px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+}
+
+#container_ready-orders {
+  // background-color: #ebeaea !important;
+  background-color: #efefef !important;
+}
+
+.titles-card {
+  text-align: center;
+
+  & p {
+    margin-top: 30px;
+  }
+}
+
+.section-ready-orders {
+  padding: 12px;
+}
+
+#title-inf-order {
+  margin: 0;
+  box-shadow: 0 2px #901111;
+  margin-bottom: 20px;
+  font-family: "Cinzel Decorative";
+}
+
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .header-bar {
+    margin-top: 20px;
+    // text-align: center;
+    background-color: #ebeaea;
+    color: #161515;
+  }
+}

@@ -1,0 +1,69 @@
+// * {
+//   padding: 0;
+//   margin: 0;
+// }
+
+h1 {
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: 900;
+  // font-weight: bold;
+  font-size: 35px;
+  color: #e5e5e5;
+  line-height: 10px;
+}
+
+.row {
+  margin: 0;
+
+  & > * {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.main-cover {
+  background-color: #161515;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.text-cover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cover-text {
+  text-align: center;
+}
+
+.queen {
+  display: block;
+  margin-top: 35px;
+}
+
+.img-cover-1 {
+  background-image: url(../../../images/cover1.jpg);
+}
+
+.img-cover-2 {
+  background-image: url(../../../images/cover2.jpg);
+}
+
+.img-cover-3 {
+  background-image: url(../../../images/cover3.jpg);
+  background-position: center;
+}
+
+.cover-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 33.3333%;
+}
+
+#btn-start {
+  border: 1px solid #979797;
+  font-weight: 600;
+  margin-top: 60px;
+}
